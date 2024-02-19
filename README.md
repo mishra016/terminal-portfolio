@@ -36,7 +36,7 @@ In this project, I've created a portfolio website with a unique terminal design.
 3. Navigate through the sections to view my projects, skills, and experiences.
 
 ## Contributing
-Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please [create an issue](https://github.com/your-username/terminal-portfolio/issues) or [submit a pull request](https://github.com/your-username/terminal-portfolio/pulls).
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please [create an issue](https://github.com/mishra016/terminal-portfolio/issues) or [submit a pull request](https://github.com/mishra016/terminal-portfolio/pulls).
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and distribute this code for personal or commercial projects.
