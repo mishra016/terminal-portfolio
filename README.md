@@ -27,7 +27,7 @@ In this project, I've created a portfolio website with a unique terminal design.
 - JavaScript
 
 ## Installation
-1. Clone this repository: `git clone https://github.com/your-username/terminal-portfolio.git`
+1. Clone this repository: `git@github.com:mishra016/terminal-portfolio.git`
 2. Navigate to the project directory: `cd terminal-portfolio`
 
 ## Usage
