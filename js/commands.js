@@ -69,7 +69,7 @@ help = [
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           Check available commands',
   '<span class="command">clear</span>          Clear terminal',
-  '<span class="command">welcome</span>       Display the header',
+  '<span class="command">welcome</span>        Display the header',
   "<br>",
 ];
 
