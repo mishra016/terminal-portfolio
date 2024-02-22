@@ -17,23 +17,27 @@ function $(elid) {
     return txt.replace(/\n/g, '');
   }
   
+
   // Function to handle typing input
-  function typeIt(from, e) {
-    e = e || window.event;
-    var w = $("typer");
-    var tw = from.value;
-    if (!pw) {
-      w.innerHTML = newLine(tw);
+  function typeIt(inputElement) {
+    var typerElement = document.getElementById("typer"); // Get the typer element
+    var inputValue = inputElement.value; // Get the value of the input element
+
+    if(!pw){
+      // Update the content of the typer element with the input value
+      typerElement.innerHTML = newLine(inputValue);
     }
   }
   
   // Function to move the cursor left or right
   function moveIt(count, e) {
-    e = e || window.event;
     var keycode = e.keyCode || e.which;
+    // Move cursor left if left arrow key is pressed and within bounds
     if (keycode == 37 && parseInt(cursor.style.left) >= (0 - ((count - 1) * 10))) {
       cursor.style.left = parseInt(cursor.style.left) - 10 + "px";
-    } else if (keycode == 39 && (parseInt(cursor.style.left) + 10) <= 0) {
+    } 
+    // Move cursor right if right arrow key is pressed and within bounds
+    else if (keycode == 39 && (parseInt(cursor.style.left) + 10) <= 0) {
       cursor.style.left = parseInt(cursor.style.left) + 10 + "px";
     }
   }
